@@ -1,0 +1,13 @@
+{
+  "id": "neo.sticky-world",
+  "name": "付箋ワールド",
+  "version": "0.1.0",
+  "apiVersion": 1,
+  "entry": "index.js",
+  "uses": ["entries", "tree", "fileContent", "createFiles"],
+  "location": "folder",
+  "description": "共有フォルダを、みんなで付箋を貼り合う2.5Dのワールドにします。広場で話題、アトリエでアイデア、書庫で残したい情報。データはフォルダの中の「.付箋ワールド」に作るだけで、ほかのファイルは変えません。通信はしません",
+  "settings": [
+    { "key": "pollSeconds", "label": "新着を確かめる間隔の秒数", "type": "number", "default": 5, "min": 3, "max": 60, "step": 1 }
+  ]
+}
